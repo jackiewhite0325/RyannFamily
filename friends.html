@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muffin and Friends</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #faf5e6;
+    --paper: #fffdf6;
+    --walnut: #6f4e37;
+    --ink: #2e2a26;
+    --gold: #c9a227;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: "Nunito", sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 56px; }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    color: var(--walnut);
+    font-size: 2.3rem;
+    line-height: 1.2;
+    text-align: center;
+    margin: 10px 0 6px;
+  }
+  .rule { width: 84px; height: 3px; background: var(--gold); border-radius: 2px; margin: 14px auto 22px; }
+  .intro { text-align: center; font-size: 1.15rem; margin: 0 0 28px; }
+  .friend {
+    background: var(--paper);
+    border: 1px solid #eadfc6;
+    border-radius: 18px;
+    padding: 24px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 18px rgba(111, 78, 55, 0.08);
+  }
+  .friend img { width: 100%; border-radius: 14px; display: block; }
+  .friend h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    color: var(--walnut);
+    font-size: 1.7rem;
+    margin: 20px 0 4px;
+    text-align: center;
+  }
+  .friend .for { text-align: center; color: #8a7a5f; margin: 0 0 14px; font-size: 0.98rem; }
+  .friend p.story { font-size: 1.14rem; margin: 0 0 12px; }
+  .back { text-align: center; margin-top: 6px; }
+  .back a { color: var(--walnut); font-weight: 700; }
+  .sign {
+    text-align: center;
+    margin-top: 34px;
+    font-family: "Fraunces", serif;
+    font-size: 1.25rem;
+    color: var(--walnut);
+  }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Muffin and Friends</h1>
+    <div class="rule"></div>
+    <p class="intro">Muffin has two new friends, and she would love for you to meet them.</p>
+
+    <section class="friend">
+      <img src="friends/pip.jpg" alt="Pip the kitten, grey and cream, reaching one paw up toward a falling leaf beside a basket of pumpkins.">
+      <h2>Pip</h2>
+      <p class="for">A friend for Leiann</p>
+      <p class="story">This is Pip. Pip is small, and Pip is brave.</p>
+      <p class="story">When a leaf falls, Pip does not run. Pip reaches up one paw and says hello.</p>
+      <p class="story">Pip loves baskets, sunny spots, and finding out what is around the corner.</p>
+    </section>
+
+    <section class="friend">
+      <img src="friends/biscuit.jpg" alt="Biscuit the puppy, round and golden, sitting in the grass with a happy grin beside a basket and pumpkins.">
+      <h2>Biscuit</h2>
+      <p class="for">A friend for Einar</p>
+      <p class="story">This is Biscuit. Biscuit is round, and Biscuit is happy.</p>
+      <p class="story">Sometimes Biscuit falls over his own feet. Plop!</p>
+      <p class="story">Then Biscuit laughs, and his tail wags, and he tries again.</p>
+    </section>
+
+    <p class="back"><a href="index.html">Back to your blessing page</a></p>
+    <p class="sign">Love, Jackie</p>
+  </main>
+</body>
+</html>
